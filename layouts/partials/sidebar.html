@@ -1,0 +1,34 @@
+{{- /* Right sidebar: search + recent posts + categories */ -}}
+<aside class="sidebar">
+    <div class="sidebar-widget">
+        <h3 class="widget-title">搜尋</h3>
+        <form class="sidebar-search" action="{{ "search/" | relLangURL }}" method="get" role="search">
+            <input type="search" name="q" placeholder="搜尋文章..." aria-label="搜尋">
+            <button type="submit" aria-label="搜尋">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </button>
+        </form>
+    </div>
+
+    <div class="sidebar-widget">
+        <h3 class="widget-title">Recent Posts</h3>
+        <ul class="recent-posts">
+            {{- $recent := first 5 (where site.RegularPages "Section" "posts") }}
+            {{- range $recent }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- end }}
+        </ul>
+    </div>
+
+    <div class="sidebar-widget">
+        <h3 class="widget-title">文章分類</h3>
+        <ul class="sidebar-categories">
+            {{- range site.Taxonomies.categories }}
+            <li>
+                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                <span class="count">{{ .Count }}</span>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+</aside>

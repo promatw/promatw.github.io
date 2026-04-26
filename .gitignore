@@ -3,3 +3,11 @@ resources/
 .hugo_build.lock
 .DS_Store
 Thumbs.db
+
+# Python 工具腳本副產物
+tools/__pycache__/
+*.pyc
+
+# 本機 hugo 二進位（從 GitHub releases 下載放這裡的話，不要進 repo）
+tools/hugo.exe
+tools/hugo

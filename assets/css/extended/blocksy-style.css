@@ -1,0 +1,694 @@
+/* HealthTree TW — Blocksy 風配色覆蓋 */
+
+:root {
+    --ht-blue: #1a73e8;
+    --ht-blue-dark: #1557b0;
+    --ht-orange: #f5a623;
+    --ht-orange-dark: #d98e0f;
+    --ht-page-bg: #f3f5f7;
+    --ht-card: #ffffff;
+    --ht-text: #2c3e50;
+    --ht-text-muted: #6c757d;
+    --ht-border: #e9ecef;
+
+    --nav-width: 1200px;
+    --main-width: 760px;
+    --radius: 12px;
+}
+
+/* 強制 light theme（站內已停用 toggle） */
+:root {
+    --theme: var(--ht-page-bg);
+    --entry: var(--ht-card);
+    --primary: var(--ht-text);
+    --secondary: var(--ht-text-muted);
+    --border: var(--ht-border);
+}
+
+body {
+    background: var(--ht-page-bg);
+    color: var(--ht-text);
+}
+
+/* ---------- 藍色 header ---------- */
+.header {
+    background: var(--ht-blue);
+    border-bottom: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 100;
+}
+
+.header-nav {
+    max-width: var(--nav-width);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height);
+    flex-wrap: nowrap !important;
+    overflow: visible;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.logo a {
+    color: #fff !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-star {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    color: var(--ht-orange);
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+    overflow: visible;
+}
+
+#menu li {
+    display: block;
+}
+
+#menu li + li {
+    margin-inline-start: 0;
+}
+
+.logo {
+    margin: auto 0;
+}
+
+#menu {
+    gap: 4px;
+}
+
+#menu a {
+    color: rgba(255, 255, 255, 0.95) !important;
+    font-weight: 500;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+    font-size: 19.5px;  /* 原 15px → 1.3x，貼近原站視覺 */
+    white-space: nowrap;
+}
+
+#menu a:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff !important;
+}
+
+#menu span.active {
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
+}
+
+/* 橘色 CTA 按鈕（最後一個選單項） */
+#menu li.cta-button a {
+    background: var(--ht-orange);
+    color: #fff !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+#menu li.cta-button a:hover {
+    background: var(--ht-orange-dark);
+}
+
+/* ---------- 漢堡選單（手機版） ---------- */
+.menu-toggle-input {
+    display: none;
+}
+
+.menu-toggle-label {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    padding: 4px;
+    margin-left: auto;
+    z-index: 102;
+}
+
+.menu-toggle-label span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.menu-backdrop {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+/* ---------- 頁面 wrapper：主內容 + 右側 sidebar ---------- */
+.page-wrapper {
+    max-width: var(--nav-width);
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 280px;
+    gap: 30px;
+    align-items: start;
+}
+
+/* ---------- 首頁卡片 grid ---------- */
+main.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    min-width: 0;
+}
+
+/* first-entry（homeInfoParams）橫跨全寬，不做卡片 */
+main.main > article.first-entry.home-info {
+    grid-column: 1 / -1;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+main.main > article.first-entry.home-info h1 {
+    color: var(--ht-text);
+    margin-bottom: 10px;
+}
+
+/* 一般 first-entry（單篇文章頁之前的 recent）跟 post-entry 共用卡片樣式 */
+article.first-entry,
+article.post-entry {
+    background: var(--ht-card);
+    border-radius: var(--radius);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--ht-border);
+    padding: 24px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* 分頁導覽：橫跨全寬 */
+main.main > footer.page-footer {
+    grid-column: 1 / -1;
+}
+
+.first-entry:hover,
+.post-entry:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+}
+
+.first-entry .entry-header h1,
+.post-entry .entry-header h2 {
+    color: var(--ht-text);
+    font-weight: 700;
+    margin: 0 0 14px;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+/* 隱藏 PaperMod 原本的 summary/meta footer（我們用自訂的 meta-line） */
+.post-entry .entry-content,
+.post-entry .entry-footer,
+.first-entry:not(.home-info) .entry-content,
+.first-entry:not(.home-info) .entry-footer {
+    display: none;
+}
+
+/* 分類 meta 列：✎ TW HEALTHTREE / 📋 活動花絮 */
+.entry-meta-line {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: var(--ht-text-muted);
+    font-size: 14px;
+    margin-bottom: 20px;
+    letter-spacing: 0.4px;
+}
+
+.entry-meta-line .meta-author,
+.entry-meta-line .meta-category {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.entry-meta-line .meta-author {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.entry-meta-line svg {
+    flex-shrink: 0;
+    opacity: 0.75;
+    width: 15px;
+    height: 15px;
+}
+
+.entry-meta-line .meta-sep {
+    color: var(--ht-border);
+    margin: 0 4px;
+    font-weight: 300;
+}
+
+/* 好文閱讀按鈕 */
+.entry-cta {
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+.read-more-btn {
+    display: inline-block;
+    background: var(--ht-blue);
+    color: #fff !important;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.read-more-btn:hover {
+    background: var(--ht-blue-dark);
+    color: #fff !important;
+}
+
+.first-entry .entry-hint-parent a,
+.post-entry a,
+.post-content a {
+    color: var(--ht-blue);
+}
+
+.post-content a:hover {
+    color: var(--ht-blue-dark);
+}
+
+/* ---------- 單篇文章卡片 ---------- */
+.post-single {
+    background: var(--ht-card);
+    border-radius: var(--radius);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--ht-border);
+    padding: 40px 48px;
+    margin: 0;
+    width: 100%;
+    grid-column: 1 / -1;  /* 在 main.main 2-col grid 中跨滿全寬 */
+}
+
+.post-title {
+    color: var(--ht-text);
+    font-weight: 700;
+}
+
+.post-meta {
+    color: var(--ht-text-muted);
+}
+
+.post-content h2 {
+    color: var(--ht-blue-dark);
+    border-left: 4px solid var(--ht-blue);
+    padding-left: 12px;
+    margin-top: 2em;
+}
+
+/* ---------- 響應式圖片（WP wp-block-image） ---------- */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-content figure {
+    margin: 1.5em 0;
+    max-width: 100%;
+}
+
+.post-content figure.wp-block-image {
+    text-align: center;
+}
+
+.post-content figure.wp-block-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+/* size-small / size-thumbnail 維持較小尺寸 */
+.post-content figure.size-thumbnail img,
+.post-content figure.size-small img {
+    width: auto;
+    max-width: 100%;
+}
+
+.post-content figure figcaption {
+    text-align: center;
+    color: var(--ht-text-muted);
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+/* ---------- 分類 / 標籤頁 ---------- */
+.archive-header h1,
+.taxonomies h1 {
+    color: var(--ht-text);
+}
+
+/* ---------- 分頁（Pagination）---------- */
+.page-link {
+    background: var(--ht-blue);
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 6px 14px;
+}
+
+.page-link:hover {
+    background: var(--ht-blue-dark);
+}
+
+/* ---------- Sidebar 樣式 ---------- */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: calc(var(--header-height) + 20px);
+}
+
+.sidebar-widget {
+    background: var(--ht-card);
+    border-radius: var(--radius);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--ht-border);
+    padding: 20px;
+}
+
+.widget-title {
+    margin: 0 0 14px;
+    font-size: 1rem;
+    color: var(--ht-text);
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--ht-blue);
+}
+
+.sidebar-search {
+    display: flex;
+    gap: 6px;
+}
+
+.sidebar-search input[type="search"] {
+    flex: 1;
+    min-width: 0;
+    padding: 8px 12px;
+    border: 1px solid var(--ht-border);
+    border-radius: 4px;
+    background: #fff;
+    color: var(--ht-text);
+    font-size: 14px;
+}
+
+.sidebar-search input[type="search"]:focus {
+    outline: none;
+    border-color: var(--ht-blue);
+}
+
+.sidebar-search button {
+    background: var(--ht-blue);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-search button:hover {
+    background: var(--ht-blue-dark);
+}
+
+.recent-posts,
+.sidebar-categories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recent-posts li {
+    padding: 8px 0;
+    border-bottom: 1px dashed var(--ht-border);
+    line-height: 1.4;
+}
+
+.recent-posts li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.recent-posts li:first-child {
+    padding-top: 0;
+}
+
+.recent-posts a {
+    color: var(--ht-text) !important;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.recent-posts a:hover {
+    color: var(--ht-blue) !important;
+}
+
+.sidebar-categories li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dashed var(--ht-border);
+}
+
+.sidebar-categories li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.sidebar-categories li:first-child {
+    padding-top: 0;
+}
+
+.sidebar-categories a {
+    color: var(--ht-text) !important;
+    font-size: 14px;
+    text-decoration: none;
+    flex: 1;
+}
+
+.sidebar-categories a:hover {
+    color: var(--ht-blue) !important;
+}
+
+.sidebar-categories .count {
+    background: var(--ht-page-bg);
+    color: var(--ht-text-muted);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    min-width: 24px;
+    text-align: center;
+}
+
+/* ---------- 響應式：窄桌面 主內容 1 欄 ---------- */
+@media (max-width: 1100px) {
+    main.main {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ---------- 響應式：手機 sidebar 放下方 + 1 欄 + 漢堡 ---------- */
+@media (max-width: 900px) {
+    .page-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .sidebar {
+        position: static;
+    }
+
+    main.main {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-toggle-label {
+        display: flex;
+    }
+
+    #menu {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 280px;
+        height: 100vh;
+        background: var(--ht-blue);
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 80px 0 20px;
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+        transition: right 0.3s ease;
+        overflow-y: auto;
+        z-index: 101;
+    }
+
+    #menu a {
+        padding: 9px 24px;
+        border-radius: 0;
+        font-size: 1.15rem;
+        line-height: 1.3;
+    }
+
+    #menu a:hover {
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    #menu {
+        padding: 70px 0 16px;
+    }
+
+    /* 打開狀態 */
+    .menu-toggle-input:checked ~ #menu {
+        right: 0;
+    }
+    .menu-toggle-input:checked ~ .menu-backdrop {
+        display: block;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    /* 漢堡變 X */
+    .menu-toggle-input:checked ~ .menu-toggle-label span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu-toggle-input:checked ~ .menu-toggle-label span:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-toggle-input:checked ~ .menu-toggle-label span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .page-wrapper {
+        padding: 20px 16px;
+    }
+
+    main.main {
+        gap: 24px;
+    }
+
+    .first-entry,
+    .post-entry {
+        padding: 28px 24px;
+    }
+
+    .first-entry .entry-header h1,
+    .post-entry .entry-header h2 {
+        font-size: 1.4rem;
+        margin-bottom: 18px;
+    }
+
+    .entry-meta-line {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+
+    .read-more-btn {
+        padding: 11px 26px;
+        font-size: 15px;
+    }
+
+    .sidebar {
+        gap: 14px;
+    }
+
+    .sidebar-widget {
+        padding: 16px 18px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .widget-title {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+    }
+
+    .recent-posts li {
+        padding: 6px 0;
+    }
+
+    .recent-posts a {
+        font-size: 13px;
+    }
+
+    .sidebar-categories li {
+        padding: 6px 0;
+    }
+
+    .sidebar-categories a {
+        font-size: 13px;
+    }
+
+    .sidebar-search input[type="search"] {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+
+    .post-single {
+        padding: 24px 20px;
+        border-radius: 0;
+        margin: 0;
+        border-left: none;
+        border-right: none;
+    }
+}

@@ -1,5 +1,6 @@
 baseURL = 'https://example.org/'
 title = 'HealthTree TW 醫療資訊備份站'
+copyright = '版權所有 © 2026 MM 資訊平台 (Healtree Taiwan Connect)'
 theme = 'PaperMod'
 defaultContentLanguage = 'zh-tw'
 hasCJKLanguage = true
@@ -22,8 +23,11 @@ buildExpired = false
   env = "production"
   description = "多發性骨髓瘤與日常保健國際資訊摘要（靜態備份站）"
   author = "HealthTree TW"
-  defaultTheme = "auto"
-  disableThemeToggle = false
+  defaultTheme = "light"
+  disableThemeToggle = true
+
+[params.label]
+  text = "HealthTree TW"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -33,33 +37,41 @@ buildExpired = false
   ShowToc = false
   comments = false
 
-[params.homeInfoParams]
-  Title = "HealthTree TW"
-  Content = "多發性骨髓瘤與日常保健國際資訊摘要。本站為 healthtreetw.org 的靜態備份版本。"
-
 [[menu.main]]
-  identifier = "posts"
-  name = "文章"
-  url = "/posts/"
+  identifier = "home"
+  name = "首頁 (HEALTHTREE TW)"
+  url = "/"
   weight = 10
 
 [[menu.main]]
-  identifier = "categories"
-  name = "分類"
-  url = "/categories/"
+  identifier = "about-mm"
+  name = "認識 MM"
+  url = "/categories/know/"
   weight = 20
 
 [[menu.main]]
-  identifier = "tags"
-  name = "標籤"
-  url = "/tags/"
+  identifier = "medical-progress"
+  name = "醫療進展"
+  url = "/categories/status/"
   weight = 30
 
 [[menu.main]]
-  identifier = "archives"
-  name = "彙整"
-  url = "/archives/"
+  identifier = "daily-health"
+  name = "日常保健"
+  url = "/categories/life/"
   weight = 40
+
+[[menu.main]]
+  identifier = "events"
+  name = "活動花絮"
+  url = "/categories/event/"
+  weight = 50
+
+[[menu.main]]
+  identifier = "about-platform"
+  name = "關於 MM 資訊平台"
+  url = "/about/"
+  weight = 60
 
 [taxonomies]
   category = "categories"

@@ -1,0 +1,37 @@
+{{- /* Overridden from PaperMod to add mobile hamburger drawer */ -}}
+<header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            {{- $label_text := (site.Params.label.text | default site.Title) }}
+            {{- if site.Title }}
+            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)" aria-label="{{ $label_text }}">
+                <span class="logo-star" aria-hidden="true">★</span>
+            </a>
+            {{- end }}
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-input" aria-label="開啟選單" />
+        <label for="menu-toggle" class="menu-toggle-label" aria-hidden="true">
+            <span></span><span></span><span></span>
+        </label>
+        <label for="menu-toggle" class="menu-backdrop" aria-hidden="true"></label>
+
+        {{- $currentPage := . }}
+        <ul id="menu" class="menu">
+            {{- range site.Menus.main }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+            {{- $class := .Params.class | default "" }}
+            <li{{ with $class }} class="{{ . }}"{{ end }}>
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                        {{- .Pre }}
+                        {{- .Name -}}
+                        {{ .Post -}}
+                    </span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>

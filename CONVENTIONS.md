@@ -5,6 +5,20 @@
 
 ---
 
+## 通則（Debug 經驗總結）
+
+WP REST API 匯入的 HTML 帶很多 **inline 屬性**，PaperMod 預設 CSS 不會幫你收口。
+看到下列訊號要主動在 `assets/css/extended/blocksy-style.css` 加約束：
+
+- `<iframe width="1200" height="675">` → 影片放大撐破欄（YouTube embed，已修）
+- `<img>` 沒有 wrapper figure → 圖片可能超寬（已用 `.post-content img { max-width: 100% }` 處理）
+- `<table>` 沒有 wrapper → 寬表格在手機會橫向溢出
+- `<a>` 內含純文字 URL（不是 anchor） → 「閱讀原文」類連結點不動，由 `import_wp.py` 改寫（已修）
+
+**改完一定要驗三個視窗**：① 桌機最寬、② 360px 模擬手機、③ 線上 Ctrl+F5 強制刷新（避開 PaperMod fingerprinted CSS bundle 快取）。
+
+---
+
 ## URL Slug 規則（重要）
 
 **所有文章 slug 一律使用 ASCII（英文+數字+連字號），不允許中文。**
@@ -138,6 +152,22 @@ WP 來源是 Gutenberg 的 `wp-block-embed`：
 
 **未來自動發布要求**：保留原 WP 的 `figure.wp-block-embed > div.wp-block-embed__wrapper > iframe` 結構，
 不要拆掉外層 `figure` / `wrapper` div，CSS 才能吃到。
+
+### Debug 經驗（2026-04-26）
+
+- **症狀**：桌機與手機進入含 YouTube 的文章，影片框被放大，撐破內容欄寬。
+- **根因**：WP 來源 iframe 寫死 `width="1200" height="675"`。原站靠 Blocksy 主題
+  CSS（`.wp-embed-aspect-16-9` + `aspect-ratio` + `max-width: 100%`）收回欄寬，
+  PaperMod 沒有對應規則，iframe 直接以 1200px 渲染。
+- **教訓 / 通則**：
+  1. WP 內容裡任何 inline 寬高（iframe / img / video / table）都要先當「會破版」處理，
+     在 `assets/css/extended/blocksy-style.css` 用 `max-width: 100%` 收口。
+  2. 想用 `aspect-ratio` 等比縮放時，必須讓 iframe 有 `position: absolute` 充滿父層
+     `wrapper`，否則 iframe 屬性的 height 會無視 aspect-ratio。
+  3. 改 CSS 後測試：① 本機 `hugo server` 開最寬桌機、② 視窗縮到 360px 模擬手機、
+     ③ 線上強制刷新（Ctrl+F5）以避開 PaperMod 的 fingerprint CSS bundle 快取。
+- **預防**：將來新主題 / 重大改版時，跑一次 `posts/know-02/`（多支 YouTube）+
+  含表格 / 含 `<img width=...>` 的文章作為視覺回歸基準。
 
 ---
 

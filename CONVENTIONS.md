@@ -116,6 +116,31 @@ WP 上傳：`https://healthtreetw.org/wp-content/uploads/<year>/<month>/<file>.j
 
 ---
 
+## YouTube / 影片嵌入格式
+
+WP 來源是 Gutenberg 的 `wp-block-embed`：
+
+```html
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+  <div class="wp-block-embed__wrapper">
+    <iframe loading="lazy" title="..." width="1200" height="675"
+            src="https://www.youtube.com/embed/<id>?feature=oembed"
+            frameborder="0" allowfullscreen></iframe>
+  </div>
+</figure>
+```
+
+**iframe 寫死的 1200×675** 在 PaperMod 沒有預設約束，會撐爆欄寬。
+`assets/css/extended/blocksy-style.css` 內有對應規則（搜 `.wp-block-embed`）：
+- `.wp-block-embed` → `max-width: 100%`
+- `.wp-block-embed__wrapper` → `position: relative; aspect-ratio: 16 / 9`
+- `.wp-block-embed iframe` → `position: absolute; width/height 100%`
+
+**未來自動發布要求**：保留原 WP 的 `figure.wp-block-embed > div.wp-block-embed__wrapper > iframe` 結構，
+不要拆掉外層 `figure` / `wrapper` div，CSS 才能吃到。
+
+---
+
 ## Hugo 設定要點
 
 - `goldmark.renderer.unsafe = true`（允許 inline HTML，因 WP 內容是 HTML）

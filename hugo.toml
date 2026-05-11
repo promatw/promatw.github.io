@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://promatw.github.io/'
 title = 'HealthTree TW 醫療資訊備份站'
 copyright = '版權所有 © 2026 MM 資訊平台 (Healtree Taiwan Connect)'
 theme = 'PaperMod'

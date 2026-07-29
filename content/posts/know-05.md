@@ -13,7 +13,15 @@ draft = false
 
 完整版保留更多檢驗報告說明與細節，適合需要逐項核對檢驗數據的讀者。
 
-<p><a href="/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf" style="display:inline-block;background:#2f6f2b;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:700;">下載中英對照 PDF</a></p>
+<div style="background:#f7fbf6;border:2px solid #2f6f2b;padding:18px 20px;margin:24px 0;border-radius:8px;">
+<p style="font-size:1.15em;margin-top:0;"><strong>下載 PDF 文件</strong><br>適合保存、列印或轉傳給家人一起閱讀。</p>
+<p><a href="/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf" download style="display:inline-block;background:#2f6f2b;color:#fff;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.1em;">按此下載中英對照 PDF</a></p>
+<details style="margin-top:12px;">
+<summary style="cursor:pointer;font-weight:700;color:#155e63;">按此顯示下載 QR Code</summary>
+<p style="margin-top:12px;"><img src="/images/2026/07/know-05/know-05-download-qr.png" alt="多發性骨髓瘤檢驗數據解讀：完整中英對照版 PDF 下載 QR Code" style="max-width:260px;width:100%;height:auto;border:1px solid #d0ddd0;border-radius:6px;padding:8px;background:#fff;"></p>
+<p style="font-size:0.9em;color:#555;">QR Code 連結：<br><a href="/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf">https://promatw.github.io/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf</a></p>
+</details>
+</div>
 
 下載版 PDF 已在最前面與最後面加入 AI 翻譯與醫療資訊使用提醒，並包含中英對照頁面與原始英文文件，方便離線閱讀與核對。
 

@@ -1,5 +1,5 @@
 +++
-title = "2026/8/31 MM 朋友茶會"
+title = "2026/8/31 MM 多發性骨髓瘤病友交流會"
 date = "2026-07-29T00:00:00+08:00"
 slug = "event-05"
 categories = ["event"]
@@ -9,7 +9,7 @@ draft = false
 <p>這次聚會採輕鬆交流形式，歡迎病友、家屬與朋友一起來聚聚，認識其他朋友，也交流近期照護與治療資訊。</p>
 
 <figure class="wp-block-image size-large">
-  <img loading="lazy" decoding="async" src="/images/2026/08/event-05/event-05-poster-preview.png" alt="2026/8/31 MM 朋友茶會海報" />
+  <img loading="lazy" decoding="async" src="/images/2026/08/event-05/event-05-poster-preview.png" alt="2026/8/31 MM 多發性骨髓瘤病友交流會海報" />
 </figure>
 
 <h3 class="wp-block-heading">活動資訊</h3>
@@ -18,6 +18,7 @@ draft = false
 <li><strong>日期：</strong>2026 年 8 月 31 日（星期一）</li>
 <li><strong>時間：</strong>下午 1 點 30 分到 4 點 30 分</li>
 <li><strong>地點：</strong>士林錫安堂二樓（台北捷運芝山站一號出口；到了 7-11 看有門鈴按二樓，門就會打開。）</li>
+<li><strong>主辦 / 承辦單位：</strong>MM 病友們 ／ 隨緣之友</li>
 <li><strong>名額：</strong>不限</li>
 </ul>
 
@@ -25,7 +26,11 @@ draft = false
 
 <p>為了大約知道人數，建議大家可以先報名；不過當天真的想來，也可以直接前來。場地夠大，人數不限，預先統計人數只是為了提早應對可能的安排。</p>
 
-<p><strong>報名連結與 QR Code：即將補上。</strong></p>
+<p><a href="https://forms.gle/6Q1dBbUTFPpKgfoC8" target="_blank" rel="noopener"><strong>按此開啟報名表單</strong></a></p>
+
+<p><img src="/images/2026/08/event-05/event-05-registration-qr.png" alt="2026/8/31 MM 多發性骨髓瘤病友交流會報名 QR Code" style="max-width:260px;width:100%;height:auto;border:1px solid #ddd;padding:8px;background:#fff;"></p>
+
+<p>報名表單網址：<br><a href="https://forms.gle/6Q1dBbUTFPpKgfoC8" target="_blank" rel="noopener">https://forms.gle/6Q1dBbUTFPpKgfoC8</a></p>
 
 <h3 class="wp-block-heading">活動流程</h3>
 
@@ -43,4 +48,4 @@ draft = false
 
 <p>歡迎各位朋友一起來聚聚、認識其他朋友並交流資訊。</p>
 
-<p><a href="/files/2026/08/event-05/event-05-poster-editable.pptx">下載可編輯海報 PowerPoint 檔</a></p>
+<p><a href="/images/2026/08/event-05/event-05-poster-print.png">下載高解析海報圖片</a></p>

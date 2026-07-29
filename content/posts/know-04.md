@@ -6,6 +6,16 @@ categories = ["know"]
 draft = false
 +++
 
+<div style="background:#f7fbf6;border:2px solid #2f6f2b;padding:18px 20px;margin-bottom:20px;border-radius:8px;">
+<p style="font-size:1.12em;margin-top:0;"><strong>資料來源與原文出處</strong></p>
+<ul>
+<li><strong>文章來源：</strong>美國 HealthTree Foundation for Multiple Myeloma</li>
+<li><strong>原始資源頁：</strong><a href="https://healthtree.org/pages/resources" target="_blank" rel="noopener">https://healthtree.org/pages/resources</a></li>
+<li><strong>原始英文資料：</strong>Simplified Version of Understanding Your Labs</li>
+</ul>
+<p style="margin-bottom:0;">本頁是以 HealthTree 公開英文資源為基礎，重新整理成繁體中文與英文對照閱讀版，方便病友與家屬理解檢驗相關資訊。</p>
+</div>
+
 <div style="background:#f0f7ff;border-left:4px solid #1a73e8;padding:15px 20px;margin-bottom:25px;border-radius:4px;">
 <p><strong>AI 輔助翻譯與重排說明</strong><br>
 本頁內容由 AI 協助整理、翻譯與重新排版，目的是幫助多發性骨髓瘤病友與家屬對照英文原文理解檢驗資訊。內容僅供參考，不能取代醫師診斷、治療建議或個別化醫療判斷；醫療決策請務必諮詢您的主治醫師。</p>
@@ -14,8 +24,9 @@ draft = false
 這份資料是「Simplified Version of Understanding Your Labs」簡明版的中英對照閱讀版。新版排版保留原始頁面作為參考，並把第 8 頁之後重新整理成較適合手機閱讀的中英對照段落。
 
 <div style="background:#f7fbf6;border:2px solid #2f6f2b;padding:18px 20px;margin:24px 0;border-radius:8px;">
-<p style="font-size:1.15em;margin-top:0;"><strong>下載 PDF 檔案</strong><br>按下方按鈕可下載完整 PDF，前後皆有 AI 輔助翻譯提醒；前半段為中英對照閱讀版，後半段附上原始英文 PDF。</p>
+<p style="font-size:1.15em;margin-top:0;"><strong>下載 PDF 檔案</strong><br>按下方按鈕可下載中英對照 PDF。若想閱讀未經翻譯重排的乾淨版本，也可下載 HealthTree 英文原文 PDF。</p>
 <p><a href="/files/2026/07/know-04/know-04-bilingual-ai-reference.pdf" download style="display:inline-block;background:#2f6f2b;color:#fff;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.1em;">按此下載中英對照 PDF</a></p>
+<p><a href="/files/2026/07/know-04/know-04-original-healthtree-understanding-your-labs.pdf" download>下載英文原文 PDF：Simplified Version of Understanding Your Labs</a></p>
 <details style="margin-top:12px;">
 <summary style="cursor:pointer;font-weight:700;color:#155e63;">按此顯示下載連結 QR Code</summary>
 <p style="margin-top:12px;"><img src="/images/2026/07/know-04/know-04-download-qr.png" alt="認識檢驗數據簡明版 PDF 下載 QR Code" style="max-width:260px;width:100%;height:auto;border:1px solid #d0ddd0;border-radius:6px;padding:8px;background:#fff;"></p>

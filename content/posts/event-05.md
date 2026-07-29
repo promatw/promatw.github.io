@@ -1,6 +1,6 @@
 +++
 title = "2026/8/31 MM 朋友茶會"
-date = "2026-08-31T13:30:00+08:00"
+date = "2026-07-29T00:00:00+08:00"
 slug = "event-05"
 categories = ["event"]
 draft = false

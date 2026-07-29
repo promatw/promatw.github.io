@@ -14,7 +14,7 @@ draft = false
 <li><strong>日期：</strong>2026 年 8 月 31 日（星期一）</li>
 <li><strong>時間：</strong>下午 1 點 30 分到 4 點 30 分</li>
 <li><strong>地點：</strong>士林錫安堂二樓（台北捷運芝山站一號出口；到了 7-11 看有門鈴按二樓，門就會打開。）</li>
-<li><strong>主辦 / 承辦單位：</strong>MM 病友們 ／ 隨緣之友</li>
+<li><strong>主辦 / 協辦單位：</strong>MM 病友們 ／ 隨緣之友</li>
 <li><strong>名額：</strong>不限</li>
 </ul>
 

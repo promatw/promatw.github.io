@@ -8,10 +8,6 @@ draft = false
 
 <p>這次聚會採輕鬆交流形式，歡迎病友、家屬與朋友一起來聚聚，認識其他朋友，也交流近期照護與治療資訊。</p>
 
-<figure class="wp-block-image size-large">
-  <img loading="lazy" decoding="async" src="/images/2026/08/event-05/event-05-poster-preview.png" alt="2026/8/31 MM 多發性骨髓瘤病友交流會海報" />
-</figure>
-
 <h3 class="wp-block-heading">活動資訊</h3>
 
 <ul class="wp-block-list">
@@ -47,5 +43,3 @@ draft = false
 </table>
 
 <p>歡迎各位朋友一起來聚聚、認識其他朋友並交流資訊。</p>
-
-<p><a href="/images/2026/08/event-05/event-05-poster-print.png">下載高解析海報圖片</a></p>

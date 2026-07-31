@@ -1,6 +1,6 @@
 ﻿{
     "description":  "已發布文章 URL 資料庫，供週報與月報去重比對使用",
-    "last_updated":  "2026-07-30",
+    "last_updated":  "2026-07-31",
     "urls":  [
                  "https://healthtree.org/blood-cancer/community/articles/26-mrd-and-wgs-gamechangers-in-myeloma",
                  "https://healthtree.org/myeloma/community/articles/26-fda-approves-teclistamab-daratumumab-myeloma",
@@ -51,7 +51,26 @@
                  "https://www.myeloma.org/news-events/multiple-myeloma-news/monumental-3-study-results-eha-2026",
                  "http://www.tbmta.org.tw/?pop=814",
                  "https://knowledge.ecancer.org.tw/knowledge/useful_tool/for_dummies/rxbcn",
-                 "https://kbdca.or.kr/bbs/board.php?alim_year=2026\u0026alim_month=6\u0026tbl=alim"
+                 "https://kbdca.or.kr/bbs/board.php?alim_year=2026\u0026alim_month=6\u0026tbl=alim",
+                 "https://hkmcs-hk.blogspot.com/2026/02/2025.html",
+                 "https://mpfj.org/letterzine/",
+                 "https://www.cancernet.jp/cc-220-mm-top",
+                 "https://www.medifonews.com/news/article.html?no=211545",
+                 "https://www.bloodcancerforum.jp/interview/20260203",
+                 "https://www.myelomasociety.org/ims-connect/ims-connect-june-19-2026/",
+                 "https://www.onclive.com/view/belantamab-mafodotin-yields-sustained-mrd-negativity-in-r-r-myeloma",
+                 "https://pharmaphorum.com/news/asco26-bms-hails-compelling-phase-3-celmod-readout",
+                 "https://ashpublications.org/blood/article/doi/10.1182/blood.2024027949/537693/Eliminating-The-Need-for-Sequential-Confirmation",
+                 "https://www.jnj.com/media-center/press-releases/chmp-recommendation-advances-johnson-johnsons-tecvayli-teclistamab-plus-daratumumab-as-a-potential-standard-of-care-for-relapsed-refractory-multiple-myeloma",
+                 "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-showcases-oncology-innovation-and-next-generation",
+                 "https://www.thepharmaletter.com/biotechnology/positive-new-trial-results-for-jandj-talvey-and-tecvayli",
+                 "https://sites.google.com/view/horizon-fukuoka/%E4%BA%A4%E6%B5%81%E3%82%B5%E3%83%AD%E3%83%B3/2026%E5%B9%B4/2026%E5%B9%B43%E6%9C%8829%E6%97%A5%E4%BA%A4%E6%B5%81%E3%82%B5%E3%83%AD%E3%83%B3",
+                 "https://www.tbmt.org.tw/publicUI/B/B10201.aspx?arg=8DECD4B1EFC0E94071",
+                 "https://healthtree.org/myeloma/community/articles/07-10-2026-sarclisa-escensa-for-multiple-myeloma",
+                 "https://www.myeloma.org/news-events/multiple-myeloma-news/landmark-ecog-acrin-endurance-study-co-authored-international-myeloma-foundation-leaders-provides",
+                 "https://www.tbmta.org.tw/_admin/upload/8adc3745df22b943ccd948f7eebc9328.pdf",
+                 "https://knowledge.ecancer.org.tw/knowledge/useful_tool/for_dummies/yloif?point_area=relative_area",
+                 "http://www.kbdca.or.kr/bbs/board.php?tbl=bbs224\u0026mode=VIEW\u0026num=147"
              ],
     "notes":  "3月月報部分條目無 URL（閱讀原文為純文字），僅收錄 4 月月報可確認的完整 URL。3月月報無 URL 條目主題已列於 title_keywords 供標題比對備用。",
     "title_keywords":  [

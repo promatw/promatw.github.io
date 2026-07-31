@@ -1,0 +1,1915 @@
+{
+  "schema_version": 1,
+  "description": "跨月份已發布主題索引，供週報候選在寫入前進行網址與語意去重。",
+  "last_updated": "2026-07-31",
+  "source_months": [
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07"
+  ],
+  "topic_count": 91,
+  "topics": [
+    {
+      "topic_id": "topic-cfbc8764c072",
+      "title": "2025年ASH年會多發性骨髓瘤最新研究：CARTITUDE-4 更新、GLP-1 藥物與 MGUS 及幹細胞移植後 MMR 疫苗",
+      "normalized_title": "2025年ash年會多發性骨髓瘤最新研究cartitude4更新glp1藥物與mgus及幹細胞移植後mmr疫苗",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "ash",
+        "cartitude",
+        "cilta-cel",
+        "daratumumab",
+        "mgus",
+        "冒煙型",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "HealthTree ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-8c8d4699a35a",
+      "title": "2025年度多發性骨髓瘤研究助成公募",
+      "normalized_title": "2025年度多發性骨髓瘤研究助成公募",
+      "title_aliases": [
+        "2025年度多發性骨髓腫研究助成公募",
+        "2025年度多發性骨髓腫研究助成公募（截止 2026年5月29日）"
+      ],
+      "urls": [
+        "https://mpfj.org/fc_202603_01/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly",
+        "2026-05-04-mm-weekly"
+      ],
+      "sources": [
+        "日本骨髓腫患者の会 MPFJ",
+        "日本骨髓腫患者の会（MPFJ） ｜ 原始語言：日文"
+      ]
+    },
+    {
+      "topic_id": "topic-87ee69d282d3",
+      "title": "2026 多發性骨髓瘤日（MM Day）：紅線傳遞連結與希望",
+      "normalized_title": "2026多發性骨髓瘤日mmday紅線傳遞連結與希望",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "kbdca",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "韓國血液癌症協會（KBDCA） ｜ 原始語言：韓文（Korean）"
+      ]
+    },
+    {
+      "topic_id": "topic-e0d4b57f3619",
+      "title": "2026 年二至三月骨髓瘤最新動態",
+      "normalized_title": "2026年二至三月骨髓瘤最新動態",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "daratumumab",
+        "fda",
+        "mezigdomide",
+        "teclistamab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "國際骨髓瘤基金會（IMF） ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-d85f6d739b7f",
+      "title": "2026年1-2月多發性骨髓瘤最新研究進展",
+      "normalized_title": "2026年12月多發性骨髓瘤最新研究進展",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "bcma",
+        "car-t",
+        "冒煙型",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "International Myeloma Foundation（國際骨髓瘤基金會） ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-5e7eaf13e267",
+      "title": "2026年3月多發性骨髓瘤國際期刊最新研究重點",
+      "normalized_title": "2026年3月多發性骨髓瘤國際期刊最新研究重點",
+      "title_aliases": [
+        "2026年3月骨髓瘤醫學期刊重點摘要"
+      ],
+      "urls": [
+        "https://www.myeloma.org/news-events/multiple-myeloma-news/march-2026-myeloma-news-journals"
+      ],
+      "keywords": [
+        "bcma",
+        "daratumumab",
+        "fda",
+        "iberdomide",
+        "mrd",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly",
+        "2026-05-25-mm-weekly"
+      ],
+      "sources": [
+        "International Myeloma Foundation",
+        "International Myeloma Foundation（IMF） ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-bc284fbbb4fe",
+      "title": "FDA 受理 Iberdomide 復發/難治性多發性骨髓瘤新藥申請",
+      "normalized_title": "fda受理iberdomide復發難治性多發性骨髓瘤新藥申請",
+      "title_aliases": [
+        "BMS 旗下 iberdomide 獲 FDA 優先審查，8 月迎來審批結果"
+      ],
+      "urls": [],
+      "keywords": [
+        "daratumumab",
+        "fda",
+        "iberdomide",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "International Myeloma Foundation（國際多發性骨髓瘤基金會） ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-e93e1dd0a3c7",
+      "title": "FDA 核准 Teclistamab 與 Daratumumab 聯合療法——復發/難治型多發性骨髓瘤治療再添新武器",
+      "normalized_title": "fda核准teclistamab與daratumumab聯合療法復發難治型多發性骨髓瘤治療再添新武器",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "daratumumab",
+        "fda",
+        "teclistamab",
+        "加速核准",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "HealthTree for Multiple Myeloma ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-94b3a6004ec6",
+      "title": "MRD 與全基因組定序：改變骨髓瘤治療的遊戲規則",
+      "normalized_title": "mrd與全基因組定序改變骨髓瘤治療的遊戲規則",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "fda",
+        "mrd",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "HealthTree Foundation ｜ 原始語言：英文（en）"
+      ]
+    },
+    {
+      "topic_id": "topic-2b432dd3b5b9",
+      "title": "Mezigdomide 第三期試驗成功——為次世代 CELMoD 療法開創多發性骨髓瘤治療新路徑",
+      "normalized_title": "mezigdomide第三期試驗成功為次世代celmod療法開創多發性骨髓瘤治療新路徑",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "mezigdomide",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "International Myeloma Foundation（國際骨髓瘤基金會） ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-eb6aba4d0646",
+      "title": "《面對多發性骨髓瘤》衛教手冊十版一刷正式發行",
+      "normalized_title": "面對多發性骨髓瘤衛教手冊十版一刷正式發行",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "台灣癌症防治網（癌症希望基金會） ｜ 原始語言：中文"
+      ]
+    },
+    {
+      "topic_id": "topic-c0d95d52d1ef",
+      "title": "「髓途新章」講座（2026年3月29日）",
+      "normalized_title": "髓途新章講座2026年3月29日",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "香港多發性骨髓瘤關懷協會（HKMCS） ｜ 原始語言：繁體中文"
+      ]
+    },
+    {
+      "topic_id": "topic-29e3ba2aee2d",
+      "title": "【2025年出版】多發性骨髓瘤患者共同決策指南",
+      "normalized_title": "2025年出版多發性骨髓瘤患者共同決策指南",
+      "title_aliases": [
+        "【2025年發刊】多發性骨髓瘤患者協同決策指南——讓治療選擇更符合個人價值觀",
+        "再發或難治性多發性骨髓瘤臨床試驗資訊：參與前需與醫師充分討論",
+        "多發性骨髓瘤患者共同決策指南（2025年版）"
+      ],
+      "urls": [
+        "https://www.cancernet.jp/category/publish",
+        "https://www.cancernet.jp/mmsdm"
+      ],
+      "keywords": [
+        "sdm",
+        "共同決策",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly",
+        "2026-04-monthly",
+        "2026-05-04-mm-weekly",
+        "2026-06-01-mm-weekly"
+      ],
+      "sources": [
+        "CancerNet Japan",
+        "日本癌症資訊活動 CancerNet Japan",
+        "日本癌症資訊活動 CancerNet Japan ｜ 原始語言：日文"
+      ]
+    },
+    {
+      "topic_id": "topic-447439834488",
+      "title": "【名醫開講】以為老化？竟是多發性骨髓瘤！出現症狀要警覺，早期發現有望共存到老",
+      "normalized_title": "名醫開講以為老化竟是多發性骨髓瘤出現症狀要警覺早期發現有望共存到老",
+      "title_aliases": [
+        "以為老化？竟是多發性骨髓瘤！骨痛、疲倦、貧血別輕忽"
+      ],
+      "urls": [],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "台灣癌症防治網 HOPE 癌症知識館 ｜ 原始語言：中文"
+      ]
+    },
+    {
+      "topic_id": "topic-cb47b618a5fb",
+      "title": "三月是多發性骨髓瘤意識月",
+      "normalized_title": "三月是多發性骨髓瘤意識月",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "冒煙型",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "HealthTree ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-0114dd5bd6f2",
+      "title": "多發性骨髓瘤前驅病變（MGUS）教育講座",
+      "normalized_title": "多發性骨髓瘤前驅病變mgus教育講座",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "kbdca",
+        "mgus",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "韓國骨髓瘤患者協會（KBDCA） ｜ 原始語言：韓文（ko）"
+      ]
+    },
+    {
+      "topic_id": "topic-10ba7d155e9c",
+      "title": "多發性骨髓瘤患者的正確飲食生活",
+      "normalized_title": "多發性骨髓瘤患者的正確飲食生活",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "韓國血液癌症協會（KBDCA） ｜ 原始語言：韓文"
+      ]
+    },
+    {
+      "topic_id": "topic-26d14db906af",
+      "title": "多發性骨髓瘤治療新希望——淺談細胞治療（CAR-T）",
+      "normalized_title": "多發性骨髓瘤治療新希望淺談細胞治療cart",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "bcma",
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "台灣髓緣之友協會（tbmta.org.tw） ｜ 原始語言：繁體中文"
+      ]
+    },
+    {
+      "topic_id": "topic-138619e11f2f",
+      "title": "如何透過營養、運動與壓力管理支持多發性骨髓瘤治療",
+      "normalized_title": "如何透過營養運動與壓力管理支持多發性骨髓瘤治療",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "HealthTree ｜ 原始語言：英文（en）"
+      ]
+    },
+    {
+      "topic_id": "topic-ff0a1109e8e4",
+      "title": "對抗棘手多發性骨髓瘤 精準治療助延長存活",
+      "normalized_title": "對抗棘手多發性骨髓瘤精準治療助延長存活",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "台灣癌症希望基金會知識館（ecancer.org.tw） ｜ 原始語言：繁體中文"
+      ]
+    },
+    {
+      "topic_id": "topic-5fe3e9f14789",
+      "title": "新研究里程碑：HealthTree 社群數據推動血液癌症期刊研究",
+      "normalized_title": "新研究里程碑healthtree社群數據推動血液癌症期刊研究",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "mgus",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "HealthTree ｜ 原始語言：英文（en）"
+      ]
+    },
+    {
+      "topic_id": "topic-bf1955f444b1",
+      "title": "為什麼越來越多人放棄紅肉？──透過飲食調整降低癌症風險",
+      "normalized_title": "為什麼越來越多人放棄紅肉透過飲食調整降低癌症風險",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "HealthTree ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-72caa56bd6a3",
+      "title": "第23屆血液癌症「知っとかナイト」——多發性骨髓瘤",
+      "normalized_title": "第23屆血液癌症知多發性骨髓瘤",
+      "title_aliases": [
+        "第23回血液癌症講座：多發性骨髓瘤治療20年進展回顧"
+      ],
+      "urls": [
+        "https://www.bloodcancerforum.jp/night/20260116"
+      ],
+      "keywords": [
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly",
+        "2026-05-04-mm-weekly"
+      ],
+      "sources": [
+        "CancerNet Japan（日本癌症資訊活動） ｜ 原始語言：日文",
+        "日本 Blood Cancer Forum"
+      ]
+    },
+    {
+      "topic_id": "topic-457e35b2e88f",
+      "title": "輝瑞多發性骨髓瘤新藥「艾雷克斯皮歐」崛起為新治療選項",
+      "normalized_title": "輝瑞多發性骨髓瘤新藥艾雷克斯皮歐崛起為新治療選項",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "bcma",
+        "elranatamab",
+        "elrexfio",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "韓國骨髓瘤患者協會 KBDCA（한국혈액암협회） ｜ 原始語言：韓文"
+      ]
+    },
+    {
+      "topic_id": "topic-80414cbbbb65",
+      "title": "韓國調查：72%骨髓瘤患者願提高自費比例以加速使用新藥",
+      "normalized_title": "韓國調查72骨髓瘤患者願提高自費比例以加速使用新藥",
+      "title_aliases": [],
+      "urls": [],
+      "keywords": [
+        "car-t",
+        "kbdca",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly"
+      ],
+      "sources": [
+        "韓國骨髓瘤患者協會 KBDCA ｜ 原始語言：韓文（ko）"
+      ]
+    },
+    {
+      "topic_id": "topic-f84ff716a886",
+      "title": "骨髓瘤免疫治療研討會 2026年6月7日（日）群馬",
+      "normalized_title": "骨髓瘤免疫治療研討會2026年6月7日日群馬",
+      "title_aliases": [],
+      "urls": [
+        "https://mpfj.org/as_202604_01/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly",
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "日本多發性骨髓瘤病友聯合會 MPFJ",
+        "日本多發性骨髓瘤病友聯合會 MPFJ ｜ 原始語言：日文"
+      ]
+    },
+    {
+      "topic_id": "topic-c53f00c615d6",
+      "title": "高風險多發性骨髓瘤的關鍵進展",
+      "normalized_title": "高風險多發性骨髓瘤的關鍵進展",
+      "title_aliases": [
+        "高風險多發性骨髓瘤的重大進展"
+      ],
+      "urls": [
+        "https://healthtree.org/blood-cancer/community/articles/26-key-advances-in-high-risk-myeloma"
+      ],
+      "keywords": [
+        "car-t",
+        "cilta-cel",
+        "daratumumab",
+        "fda",
+        "teclistamab",
+        "冒煙型",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-03",
+      "report_slugs": [
+        "2026-04-mm-monthly",
+        "2026-05-25-mm-weekly"
+      ],
+      "sources": [
+        "HealthTree for Multiple Myeloma",
+        "HealthTree ｜ 原始語言：英文"
+      ]
+    },
+    {
+      "topic_id": "topic-629c590770ce",
+      "title": "2026 骨髓瘤行動月：點亮世界紅，展現你不只是骨髓瘤！",
+      "normalized_title": "2026骨髓瘤行動月點亮世界紅展現你不只是骨髓瘤",
+      "title_aliases": [],
+      "urls": [
+        "https://www.myeloma.org/blog/2026-myeloma-action-month"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "International Myeloma Foundation（IMF）"
+      ]
+    },
+    {
+      "topic_id": "topic-568f5b89ddc1",
+      "title": "CAR-T 帶來生機、雙特異性抗體清除轉移——日本骨髓瘤患者的抗病歷程",
+      "normalized_title": "cart帶來生機雙特異性抗體清除轉移日本骨髓瘤患者的抗病歷程",
+      "title_aliases": [],
+      "urls": [
+        "https://www.bloodcancerforum.jp/interview/20251028"
+      ],
+      "keywords": [
+        "car-t",
+        "elranatamab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "日本 Blood Cancer Forum"
+      ]
+    },
+    {
+      "topic_id": "topic-dc9f3e9da052",
+      "title": "CELMoDs 是什麼？多發性骨髓瘤的新型免疫療法突破",
+      "normalized_title": "celmods是什麼多發性骨髓瘤的新型免疫療法突破",
+      "title_aliases": [],
+      "urls": [
+        "https://healthtree.org/myeloma/community/articles/26-mezigdomide-celmods-for-myeloma"
+      ],
+      "keywords": [
+        "car-t",
+        "iberdomide",
+        "mezigdomide",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "HealthTree"
+      ]
+    },
+    {
+      "topic_id": "topic-2470393b7388",
+      "title": "FDA 發布草案指引：微量殘存病灶（MRD）可作為骨髓瘤加速核准的主要終點",
+      "normalized_title": "fda發布草案指引微量殘存病灶mrd可作為骨髓瘤加速核准的主要終點",
+      "title_aliases": [
+        "FDA 以 MRD 與完全緩解作為加速審查終點，可能改變骨髓瘤新藥上市節奏",
+        "FDA 發布指引：MRD 陰性可作為多發性骨髓瘤加速審查主要終點",
+        "FDA 發布指引：MRD 陰性可作為骨髓瘤加速審查主要終點",
+        "FDA 發布草案指引，以 MRD 及完全緩解作為骨髓瘤臨床試驗加速審批終點"
+      ],
+      "urls": [
+        "https://www.onclive.com/view/fda-guidance-signals-shift-toward-mrd-driven-accelerated-approvals-in-multiple-myeloma",
+        "https://www.thepharmaletter.com/pharma-news/fda-issues-draft-guidance-for-multiple-myeloma-drug-trials"
+      ],
+      "keywords": [
+        "daratumumab",
+        "fda",
+        "mrd",
+        "加速核准",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly",
+        "2026-05-11-mm-weekly",
+        "2026-05-18-mm-weekly",
+        "2026-06-15-mm-weekly"
+      ],
+      "sources": [
+        "OncLive - Multiple Myeloma",
+        "OncLive – Multiple Myeloma",
+        "The Pharma Letter"
+      ]
+    },
+    {
+      "topic_id": "topic-8bbe192124e4",
+      "title": "IMS Connect 週報（2026年4月17日）：骨髓瘤研究六大新突破",
+      "normalized_title": "imsconnect週報2026年4月17日骨髓瘤研究六大新突破",
+      "title_aliases": [],
+      "urls": [
+        "https://www.myelomasociety.org/ims-connect-april-17-2026/"
+      ],
+      "keywords": [
+        "bcma",
+        "belantamab",
+        "car-t",
+        "mrd",
+        "teclistamab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "International Myeloma Society (IMS)"
+      ]
+    },
+    {
+      "topic_id": "topic-aaf3f548021c",
+      "title": "Lenalidomide（來那度胺）與多發性骨髓瘤第二原發癌症：是否存在關聯？",
+      "normalized_title": "lenalidomide來那度胺與多發性骨髓瘤第二原發癌症是否存在關聯",
+      "title_aliases": [],
+      "urls": [
+        "https://healthtree.org/myeloma/community/articles/lenalidomide-and-secondary-cancer-in-myeloma"
+      ],
+      "keywords": [
+        "lenalidomide",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "HealthTree"
+      ]
+    },
+    {
+      "topic_id": "topic-cca7791ff0d9",
+      "title": "《Blood Global》2026 年研究：全球年輕族群多發性骨髓瘤負擔持續上升",
+      "normalized_title": "bloodglobal2026年研究全球年輕族群多發性骨髓瘤負擔持續上升",
+      "title_aliases": [],
+      "urls": [
+        "https://ashpublications.org/bloodglobal/article/doi/10.1016/j.bglo.2026.100068/566433/A-growing-global-burden-of-multiple-myeloma-in"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "ASH Blood Journal"
+      ]
+    },
+    {
+      "topic_id": "topic-c65ee1ad4125",
+      "title": "【名醫開講】破解血癌第三大殺手：多發性骨髓瘤(MM)的新世代療法全攻略",
+      "normalized_title": "名醫開講破解血癌第三大殺手多發性骨髓瘤mm的新世代療法全攻略",
+      "title_aliases": [],
+      "urls": [
+        "https://knowledge.ecancer.org.tw/knowledge/treatment_care/physiol_prescription/ejpk9"
+      ],
+      "keywords": [
+        "adc",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "台灣癌症防治網（HOPE 知識庫）"
+      ]
+    },
+    {
+      "topic_id": "topic-16303bec6d0b",
+      "title": "【第18回】血液癌知識之夜「多發性骨髓瘤與共享決策（SDM）」",
+      "normalized_title": "第18回血液癌知識之夜多發性骨髓瘤與共享決策sdm",
+      "title_aliases": [],
+      "urls": [
+        "https://www.cancernet.jp/night202508"
+      ],
+      "keywords": [
+        "sdm",
+        "共同決策",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "日本癌症資訊活動 CancerNet Japan"
+      ]
+    },
+    {
+      "topic_id": "topic-23c2aff20098",
+      "title": "三位骨髓瘤照顧者化悲痛為力量，投身健康平等倡議運動",
+      "normalized_title": "三位骨髓瘤照顧者化悲痛為力量投身健康平等倡議運動",
+      "title_aliases": [],
+      "urls": [
+        "https://www.jnj.com/innovation/multiple-myeloma-health-equity-activists-care-partners"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "Johnson & Johnson Myeloma"
+      ]
+    },
+    {
+      "topic_id": "topic-6394783716fe",
+      "title": "交流沙龍公告：2026年6月21日（日）福岡福福廣場",
+      "normalized_title": "交流沙龍公告2026年6月21日日福岡福福廣場",
+      "title_aliases": [
+        "骨髓瘤患者與家屬交流沙龍預告｜2026/6/21 福岡 Fuku Fuku 廣場舉行"
+      ],
+      "urls": [
+        "https://sites.google.com/view/horizon-fukuoka/%E4%BA%A4%E6%B5%81%E3%82%B5%E3%83%AD%E3%83%B3/2026%E5%B9%B4/2026%E5%B9%B46%E6%9C%8821%E6%97%A5%E4%BA%A4%E6%B5%81%E3%82%B5%E3%83%AD%E3%83%B3"
+      ],
+      "keywords": [
+        "交流沙龍",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "Horizon Fukuoka（日本）"
+      ]
+    },
+    {
+      "topic_id": "topic-39609df8324a",
+      "title": "多發性骨髓瘤中的腎衰竭（Article 45）",
+      "normalized_title": "多發性骨髓瘤中的腎衰竭article45",
+      "title_aliases": [],
+      "urls": [
+        "https://hkmcs-hk.blogspot.com/2018/10/blog-post_24.html"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "香港多發性骨髓瘤關懷協會（HKMCS）"
+      ]
+    },
+    {
+      "topic_id": "topic-90b99745aff6",
+      "title": "多發性骨髓瘤患者可申請香港傷殘津貼嗎？",
+      "normalized_title": "多發性骨髓瘤患者可申請香港傷殘津貼嗎",
+      "title_aliases": [],
+      "urls": [
+        "https://hkmcs-hk.blogspot.com/2018/02/blog-post.html"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "香港多發性骨髓瘤關懷協會 HKMCS"
+      ]
+    },
+    {
+      "topic_id": "topic-2752aeab658e",
+      "title": "日本骨髓瘤患者協會 YouTube 新增「骨髓瘤研討會 2025」完整影片",
+      "normalized_title": "日本骨髓瘤患者協會youtube新增骨髓瘤研討會2025完整影片",
+      "title_aliases": [],
+      "urls": [
+        "https://mpfj.org/md_202508_01/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "日本骨髓腫患者の会 MPFJ"
+      ]
+    },
+    {
+      "topic_id": "topic-e7b5ea153fe8",
+      "title": "第11回 德島骨髓瘤患者研討會（2026年4月19日）",
+      "normalized_title": "第11回德島骨髓瘤患者研討會2026年4月19日",
+      "title_aliases": [],
+      "urls": [
+        "https://mpfj.org/as_202601_01/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "日本多發性骨髓瘤病友聯合會 MPFJ"
+      ]
+    },
+    {
+      "topic_id": "topic-9b26c2a90d18",
+      "title": "與骨髓瘤共存最長 17 年——五位日本患者的真實心聲",
+      "normalized_title": "與骨髓瘤共存最長17年五位日本患者的真實心聲",
+      "title_aliases": [],
+      "urls": [
+        "https://www.cancernet.jp/cancer/blood/mm-voice"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "CancerNet Japan"
+      ]
+    },
+    {
+      "topic_id": "topic-dad7771e46ae",
+      "title": "韓國血液癌協會（KBDCA）舉辦 2026 多發性骨髓瘤認知月點燈儀式圓滿落幕",
+      "normalized_title": "韓國血液癌協會kbdca舉辦2026多發性骨髓瘤認知月點燈儀式圓滿落幕",
+      "title_aliases": [],
+      "urls": [
+        "https://www.medifonews.com/news/article.html?no=212371"
+      ],
+      "keywords": [
+        "kbdca",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-04",
+      "report_slugs": [
+        "2026-04-monthly"
+      ],
+      "sources": [
+        "MediFoNews（報導韓國血液癌協會 KBDCA 活動）"
+      ]
+    },
+    {
+      "topic_id": "topic-24a8ce115d1b",
+      "title": "BMS 新一代免疫調節藥 iberdomide 獲 FDA 優先審查，8 月盼取得核准",
+      "normalized_title": "bms新一代免疫調節藥iberdomide獲fda優先審查8月盼取得核准",
+      "title_aliases": [],
+      "urls": [
+        "https://pharmaphorum.com/news/fda-starts-review-bmss-celmod-multiple-myeloma"
+      ],
+      "keywords": [
+        "daratumumab",
+        "fda",
+        "iberdomide",
+        "mrd"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-11-mm-weekly"
+      ],
+      "sources": [
+        "pharmaphorum"
+      ]
+    },
+    {
+      "topic_id": "topic-b68804d6417d",
+      "title": "Cilta-cel 在冒煙型骨髓瘤中達成全員 MRD 陰性",
+      "normalized_title": "ciltacel在冒煙型骨髓瘤中達成全員mrd陰性",
+      "title_aliases": [],
+      "urls": [
+        "https://www.myelomasociety.org/ims-connect-May-1-2026/"
+      ],
+      "keywords": [
+        "car-t",
+        "cilta-cel",
+        "ciltacabtagene",
+        "mrd",
+        "冒煙型",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-11-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "International Myeloma Society (IMS)"
+      ]
+    },
+    {
+      "topic_id": "topic-2775406e270f",
+      "title": "ELREXFIO（elranatamab）三期試驗達主要終點，無疾病進展存活率顯著優於標準療法",
+      "normalized_title": "elrexfioelranatamab三期試驗達主要終點無疾病進展存活率顯著優於標準療法",
+      "title_aliases": [
+        "ELREXFIO 三期研究達成主要終點，支持更早期復發治療應用"
+      ],
+      "urls": [
+        "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-elrexfio-significantly-improves-progression-free"
+      ],
+      "keywords": [
+        "bcma",
+        "daratumumab",
+        "elranatamab",
+        "elrexfio",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-18-mm-weekly",
+        "2026-05-monthly",
+        "2026-06-15-mm-weekly"
+      ],
+      "sources": [
+        "Pfizer Oncology"
+      ]
+    },
+    {
+      "topic_id": "topic-8d2ae4fa44ae",
+      "title": "《Blood》期刊：抗體藥物複合體 belantamab mafodotin 聯合療法擴展至新診斷骨髓瘤患者",
+      "normalized_title": "blood期刊抗體藥物複合體belantamabmafodotin聯合療法擴展至新診斷骨髓瘤患者",
+      "title_aliases": [],
+      "urls": [
+        "https://ashpublications.org/blood/article/147/14/1510/567411/Breaking-new-ground-with-antibody-drug-conjugates"
+      ],
+      "keywords": [
+        "adc",
+        "belantamab",
+        "lenalidomide",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-11-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "ASH Blood Journal"
+      ]
+    },
+    {
+      "topic_id": "topic-7eb4ce867e94",
+      "title": "以為老化？竟是多發性骨髓瘤！出現症狀要警覺，早期發現有望共存到老",
+      "normalized_title": "以為老化竟是多發性骨髓瘤出現症狀要警覺早期發現有望共存到老",
+      "title_aliases": [],
+      "urls": [
+        "https://knowledge.ecancer.org.tw/knowledge/treatment_care/physiol_prescription/z4wbt"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-25-mm-weekly"
+      ],
+      "sources": [
+        "台灣癌症希望基金會知識館"
+      ]
+    },
+    {
+      "topic_id": "topic-0731e7274fd8",
+      "title": "台灣 2026 癌症論壇：多發性骨髓瘤四合一療法提高存活，健保給付範圍仍待擴大",
+      "normalized_title": "台灣2026癌症論壇多發性骨髓瘤四合一療法提高存活健保給付範圍仍待擴大",
+      "title_aliases": [
+        "台灣癌症論壇提醒：多發性骨髓瘤第一線治療趨勢轉向更積極的組合療法"
+      ],
+      "urls": [
+        "https://health.udn.com/health/story/122421/9418489"
+      ],
+      "keywords": [
+        "anti-cd38",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-18-mm-weekly",
+        "2026-05-monthly",
+        "2026-06-15-mm-weekly"
+      ],
+      "sources": [
+        "台灣骨髓移植關懷協會",
+        "聯合報元氣網（報導引用中華民國血液及骨髓移植學會相關專家說法）"
+      ]
+    },
+    {
+      "topic_id": "topic-e34deccf5dff",
+      "title": "布蘭藍（Belantamab Mafodotin）正式於韓國上市，復發難治性骨髓瘤生存獲益顯著",
+      "normalized_title": "布蘭藍belantamabmafodotin正式於韓國上市復發難治性骨髓瘤生存獲益顯著",
+      "title_aliases": [],
+      "urls": [
+        "https://www.medifonews.com/news/article.html?no=213268"
+      ],
+      "keywords": [
+        "adc",
+        "bcma",
+        "belantamab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-04-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "韓國 MedifoNews"
+      ]
+    },
+    {
+      "topic_id": "topic-7a2050236c7e",
+      "title": "強生揭示 Talvey（talquetamab）十年研發歷程：靶向 GPRC5D 的首款雙特異性抗體",
+      "normalized_title": "強生揭示talveytalquetamab十年研發歷程靶向gprc5d的首款雙特異性抗體",
+      "title_aliases": [],
+      "urls": [
+        "https://www.jnj.com/innovation/developing-multiple-myeloma-treatments"
+      ],
+      "keywords": [
+        "fda",
+        "gprc5d",
+        "talquetamab",
+        "talvey",
+        "冒煙型",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-11-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "Johnson & Johnson Myeloma"
+      ]
+    },
+    {
+      "topic_id": "topic-4e46e2a7b551",
+      "title": "滾動生命新里程：十二年MM抗癌與CAR-T重生",
+      "normalized_title": "滾動生命新里程十二年mm抗癌與cart重生",
+      "title_aliases": [],
+      "urls": [
+        "https://hkmcs-hk.blogspot.com/2026/03/mmcar-t.html"
+      ],
+      "keywords": [
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-04-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "香港多發性骨髓瘤關懷協會 HKMCS"
+      ]
+    },
+    {
+      "topic_id": "topic-a9eb12056f6c",
+      "title": "第 51 回日本骨髓腫學會學術集會｜2026 年 5 月大阪登場，主題「溫故知新」",
+      "normalized_title": "第51回日本骨髓瘤學會學術集會2026年5月大阪登場主題溫故知新",
+      "title_aliases": [],
+      "urls": [
+        "https://jsm2026.jp/outline.html"
+      ],
+      "keywords": [
+        "jsmm",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-18-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "HAMA 骨髓腫支援患者会",
+        "第 51 回日本骨髓腫學會學術集會（JSMM 2026）"
+      ]
+    },
+    {
+      "topic_id": "topic-7f2603cbf2db",
+      "title": "韓國血液癌症協會：2026年6月多發性骨髓瘤病友聚會通知",
+      "normalized_title": "韓國血液癌症協會2026年6月多發性骨髓瘤病友聚會通知",
+      "title_aliases": [],
+      "urls": [
+        "https://kbdca.or.kr/bbs/board.php?category=&mode=VIEW&num=1049&tbl=notice"
+      ],
+      "keywords": [
+        "kbdca",
+        "病友聚會",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-25-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "韓國血液癌症協會 KBDCA"
+      ]
+    },
+    {
+      "topic_id": "topic-0c1b3c43d544",
+      "title": "骨髓瘤 CAR-T 治療流程及副作用照護",
+      "normalized_title": "骨髓瘤cart治療流程及副作用照護",
+      "title_aliases": [],
+      "urls": [
+        "http://www.tbmta.org.tw/_admin/upload/d370245aed7fa7592c574cb03cab7db0.pdf"
+      ],
+      "keywords": [
+        "bcma",
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-25-mm-weekly",
+        "2026-05-monthly"
+      ],
+      "sources": [
+        "台灣髓緣之友協會 TBMTA"
+      ]
+    },
+    {
+      "topic_id": "topic-e5bd1ffce5d6",
+      "title": "骨髓瘤患者與家屬交流沙龍預告｜2026 年 6 月 21 日於福岡 Fuku Fuku 廣場舉行",
+      "normalized_title": "骨髓瘤患者與家屬交流沙龍預告2026年6月21日於福岡fukufuku廣場舉行",
+      "title_aliases": [
+        "福岡骨髓瘤交流沙龍持續提供患者與家屬面對面支持"
+      ],
+      "urls": [
+        "https://sites.google.com/view/horizon-fukuoka/"
+      ],
+      "keywords": [
+        "交流沙龍",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-05",
+      "report_slugs": [
+        "2026-05-18-mm-weekly",
+        "2026-06-15-mm-weekly"
+      ],
+      "sources": [
+        "Horizon Fukuoka 交流サロン"
+      ]
+    },
+    {
+      "topic_id": "topic-7f1945cccf30",
+      "title": "ASH Blood 期刊持續提供多發性骨髓瘤臨床與基礎研究論文",
+      "normalized_title": "ashblood期刊持續提供多發性骨髓瘤臨床與基礎研究論文",
+      "title_aliases": [],
+      "urls": [
+        "https://ashpublications.org/blood"
+      ],
+      "keywords": [
+        "ash",
+        "mrd",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-08-mm-weekly"
+      ],
+      "sources": [
+        "ASH Blood Journal"
+      ]
+    },
+    {
+      "topic_id": "topic-9d18fbc5e7dd",
+      "title": "EHA 2026：MonumenTAL-3 三期研究顯示 talquetamab 聯合 daratumumab 可延緩疾病進展",
+      "normalized_title": "eha2026monumental3三期研究顯示talquetamab聯合daratumumab可延緩疾病進展",
+      "title_aliases": [],
+      "urls": [
+        "https://www.myeloma.org/news-events/multiple-myeloma-news/monumental-3-study-results-eha-2026"
+      ],
+      "keywords": [
+        "daratumumab",
+        "talquetamab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-22-mm-weekly"
+      ],
+      "sources": [
+        "International Myeloma Foundation"
+      ]
+    },
+    {
+      "topic_id": "topic-bb12bf461317",
+      "title": "HAMA 骨髓腫支援患者會提供日本病友交流與支援資訊入口",
+      "normalized_title": "hama骨髓瘤支援患者會提供日本病友交流與支援資訊入口",
+      "title_aliases": [],
+      "urls": [
+        "https://hama-support.com/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-15-mm-weekly"
+      ],
+      "sources": [
+        "HAMA 骨髓腫支援患者会"
+      ]
+    },
+    {
+      "topic_id": "topic-9599edf59bff",
+      "title": "HealthTree 研究：AI 分析 CD16 訊號，協助思考骨髓瘤治療選擇",
+      "normalized_title": "healthtree研究ai分析cd16訊號協助思考骨髓瘤治療選擇",
+      "title_aliases": [],
+      "urls": [
+        "https://healthtree.org/myeloma/community/articles/06-05-2026-asco26-healthtree-cd-16-ai"
+      ],
+      "keywords": [
+        "asco",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-22-mm-weekly"
+      ],
+      "sources": [
+        "HealthTree for Multiple Myeloma"
+      ]
+    },
+    {
+      "topic_id": "topic-d5fd7b1be8ea",
+      "title": "IMS Connect 6 月號整理 EHA 與骨髓瘤國際研究動態",
+      "normalized_title": "imsconnect6月號整理eha與骨髓瘤國際研究動態",
+      "title_aliases": [],
+      "urls": [
+        "https://www.myelomasociety.org/ims-connect-june-5-2026/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-08-mm-weekly"
+      ],
+      "sources": [
+        "International Myeloma Society (IMS)"
+      ]
+    },
+    {
+      "topic_id": "topic-815fff543e9e",
+      "title": "OncLive 多發性骨髓瘤專區持續追蹤 MRD、免疫治療與復發治療策略",
+      "normalized_title": "onclive多發性骨髓瘤專區持續追蹤mrd免疫治療與復發治療策略",
+      "title_aliases": [],
+      "urls": [
+        "https://www.onclive.com/view/multiple-myeloma"
+      ],
+      "keywords": [
+        "car-t",
+        "mrd",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-08-mm-weekly"
+      ],
+      "sources": [
+        "OncLive - Multiple Myeloma"
+      ]
+    },
+    {
+      "topic_id": "topic-19f73bebaae3",
+      "title": "pharmaphorum 追蹤新型骨髓瘤藥物與產業研發趨勢",
+      "normalized_title": "pharmaphorum追蹤新型骨髓瘤藥物與產業研發趨勢",
+      "title_aliases": [],
+      "urls": [
+        "https://pharmaphorum.com/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-08-mm-weekly"
+      ],
+      "sources": [
+        "pharmaphorum"
+      ]
+    },
+    {
+      "topic_id": "topic-67e336c368bf",
+      "title": "兩位 CAR-T 經驗者對談，分享治療之外不容易說出口的心情",
+      "normalized_title": "兩位cart經驗者對談分享治療之外不容易說出口的心情",
+      "title_aliases": [],
+      "urls": [
+        "https://www.bloodcancerforum.jp/interview/20260203"
+      ],
+      "keywords": [
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-29-mm-weekly"
+      ],
+      "sources": [
+        "日本 Blood Cancer Forum"
+      ]
+    },
+    {
+      "topic_id": "topic-95e25949bbdd",
+      "title": "台灣髓緣之友協會舉辦 MM CAR-T 說明會，協助病友理解新興治療",
+      "normalized_title": "台灣髓緣之友協會舉辦mmcart說明會協助病友理解新興治療",
+      "title_aliases": [],
+      "urls": [
+        "http://www.tbmta.org.tw/?pop=814"
+      ],
+      "keywords": [
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-22-mm-weekly"
+      ],
+      "sources": [
+        "台灣髓緣之友協會 TBMTA"
+      ]
+    },
+    {
+      "topic_id": "topic-52f0e1018fba",
+      "title": "強生骨髓瘤治療管線聚焦多靶點免疫治療與長期疾病控制",
+      "normalized_title": "強生骨髓瘤治療管線聚焦多靶點免疫治療與長期疾病控制",
+      "title_aliases": [],
+      "urls": [
+        "https://www.jnj.com/innovativemedicine/oncology/multiple-myeloma"
+      ],
+      "keywords": [
+        "bcma",
+        "car-t",
+        "gprc5d",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-08-mm-weekly"
+      ],
+      "sources": [
+        "Johnson & Johnson Myeloma"
+      ]
+    },
+    {
+      "topic_id": "topic-d75f9f09521c",
+      "title": "日本臨床試驗指南：復發或難治性骨髓瘤患者如何理解參與條件",
+      "normalized_title": "日本臨床試驗指南復發或難治性骨髓瘤患者如何理解參與條件",
+      "title_aliases": [],
+      "urls": [
+        "https://www.cancernet.jp/cc-220-mm-top"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-29-mm-weekly"
+      ],
+      "sources": [
+        "CancerNet Japan"
+      ]
+    },
+    {
+      "topic_id": "topic-58409f088bd7",
+      "title": "日本骨髓瘤患者會第 22 號資訊紙，串連醫療知識與病友經驗",
+      "normalized_title": "日本骨髓瘤患者會第22號資訊紙串連醫療知識與病友經驗",
+      "title_aliases": [],
+      "urls": [
+        "https://mpfj.org/letterzine/"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-29-mm-weekly"
+      ],
+      "sources": [
+        "日本骨髓腫患者の会 MPFJ"
+      ]
+    },
+    {
+      "topic_id": "topic-1dc5ef6a0779",
+      "title": "日本骨髓腫患者會提供免費用戶登錄，協助取得資訊紙與活動通知",
+      "normalized_title": "日本骨髓瘤患者會提供免費用戶登錄協助取得資訊紙與活動通知",
+      "title_aliases": [],
+      "urls": [
+        "https://mpfj.org/user_registration/"
+      ],
+      "keywords": [],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-01-mm-weekly"
+      ],
+      "sources": [
+        "日本骨髓腫患者の会 MPFJ"
+      ]
+    },
+    {
+      "topic_id": "topic-2b99e78d45e5",
+      "title": "癌症希望基金會：多發性骨髓瘤治療與照護全方位指南",
+      "normalized_title": "癌症希望基金會多發性骨髓瘤治療與照護全方位指南",
+      "title_aliases": [],
+      "urls": [
+        "https://knowledge.ecancer.org.tw/knowledge/useful_tool/for_dummies/rxbcn"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-22-mm-weekly"
+      ],
+      "sources": [
+        "台灣癌症希望基金會知識館"
+      ]
+    },
+    {
+      "topic_id": "topic-bd180ce7efac",
+      "title": "第 29 回血液癌症知識講座聚焦高齡多發性骨髓瘤",
+      "normalized_title": "第29回血液癌症知識講座聚焦高齡多發性骨髓瘤",
+      "title_aliases": [],
+      "urls": [
+        "https://www.bloodcancerforum.jp/night/20260709"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-01-mm-weekly"
+      ],
+      "sources": [
+        "日本 Blood Cancer Forum"
+      ]
+    },
+    {
+      "topic_id": "topic-aafa09bf5118",
+      "title": "韓國 Takeda 腫瘤高峰會分享多發性骨髓瘤治療策略與國際經驗",
+      "normalized_title": "韓國takeda腫瘤高峰會分享多發性骨髓瘤治療策略與國際經驗",
+      "title_aliases": [],
+      "urls": [
+        "https://www.medifonews.com/news/article.html?no=211987"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-01-mm-weekly"
+      ],
+      "sources": [
+        "韓國 MedifoNews"
+      ]
+    },
+    {
+      "topic_id": "topic-a2fb96a63e51",
+      "title": "韓國申請引進 BCMA CAR-T「Fucaso」，盼增加後線治療可近性",
+      "normalized_title": "韓國申請引進bcmacartfucaso盼增加後線治療可近性",
+      "title_aliases": [],
+      "urls": [
+        "https://www.medifonews.com/news/article.html?no=211545"
+      ],
+      "keywords": [
+        "bcma",
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-29-mm-weekly"
+      ],
+      "sources": [
+        "韓國 MedifoNews"
+      ]
+    },
+    {
+      "topic_id": "topic-e427f5da7919",
+      "title": "韓國血液癌症協會安排多發性骨髓瘤教育日程，提供病友支持資訊",
+      "normalized_title": "韓國血液癌症協會安排多發性骨髓瘤教育日程提供病友支持資訊",
+      "title_aliases": [],
+      "urls": [
+        "https://kbdca.or.kr/bbs/board.php?alim_year=2026&alim_month=6&tbl=alim"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-22-mm-weekly"
+      ],
+      "sources": [
+        "韓國血液癌症協會 KBDCA"
+      ]
+    },
+    {
+      "topic_id": "topic-ec8bca825f35",
+      "title": "香港多發性骨髓瘤關懷協會最新消息與活動資訊更新",
+      "normalized_title": "香港多發性骨髓瘤關懷協會最新消息與活動資訊更新",
+      "title_aliases": [],
+      "urls": [
+        "https://hkmcs-hk.blogspot.com/search/label/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-01-mm-weekly"
+      ],
+      "sources": [
+        "香港多發性骨髓瘤關懷協會 HKMCS"
+      ]
+    },
+    {
+      "topic_id": "topic-61c79a486e82",
+      "title": "香港病友教育錄像：由專科醫師帶讀多發性骨髓瘤重要知識",
+      "normalized_title": "香港病友教育錄像由專科醫師帶讀多發性骨髓瘤重要知識",
+      "title_aliases": [],
+      "urls": [
+        "https://hkmcs-hk.blogspot.com/2026/02/2025.html"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-06",
+      "report_slugs": [
+        "2026-06-29-mm-weekly"
+      ],
+      "sources": [
+        "香港多發性骨髓瘤關懷協會 HKMCS"
+      ]
+    },
+    {
+      "topic_id": "topic-78ed8e304ca4",
+      "title": "DREAMM-8 長期追蹤：持續 MRD 陰性與較佳疾病控制相關",
+      "normalized_title": "dreamm8長期追蹤持續mrd陰性與較佳疾病控制相關",
+      "title_aliases": [],
+      "urls": [
+        "https://www.onclive.com/view/belantamab-mafodotin-yields-sustained-mrd-negativity-in-r-r-myeloma"
+      ],
+      "keywords": [
+        "belantamab",
+        "mrd",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-06-mm-weekly"
+      ],
+      "sources": [
+        "OncLive"
+      ]
+    },
+    {
+      "topic_id": "topic-c20128a19f21",
+      "title": "ENDURANCE 研究：標準風險患者固定兩年維持治療可能已足夠",
+      "normalized_title": "endurance研究標準風險患者固定兩年維持治療可能已足夠",
+      "title_aliases": [],
+      "urls": [
+        "https://www.myeloma.org/news-events/multiple-myeloma-news/landmark-ecog-acrin-endurance-study-co-authored-international-myeloma-foundation-leaders-provides"
+      ],
+      "keywords": [
+        "lenalidomide",
+        "mrd",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-20-mm-weekly"
+      ],
+      "sources": [
+        "International Myeloma Foundation"
+      ]
+    },
+    {
+      "topic_id": "topic-0d7e4bef7f47",
+      "title": "ERASMM 研究探索 elranatamab 是否能提前介入高風險惰性骨髓瘤",
+      "normalized_title": "erasmm研究探索elranatamab是否能提前介入高風險惰性骨髓瘤",
+      "title_aliases": [],
+      "urls": [
+        "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-showcases-oncology-innovation-and-next-generation"
+      ],
+      "keywords": [
+        "asco",
+        "bcma",
+        "elranatamab",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-13-mm-weekly"
+      ],
+      "sources": [
+        "Pfizer Oncology"
+      ]
+    },
+    {
+      "topic_id": "topic-64d6fe5b2d7c",
+      "title": "IMS 彙整 EHA 2026：新組合療法進展之外，也需留意免疫治療風險",
+      "normalized_title": "ims彙整eha2026新組合療法進展之外也需留意免疫治療風險",
+      "title_aliases": [],
+      "urls": [
+        "https://www.myelomasociety.org/ims-connect/ims-connect-june-19-2026/"
+      ],
+      "keywords": [
+        "mezigdomide",
+        "talquetamab",
+        "teclistamab",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-06-mm-weekly"
+      ],
+      "sources": [
+        "International Myeloma Society (IMS)"
+      ]
+    },
+    {
+      "topic_id": "topic-dab486728ad0",
+      "title": "SUCCESSOR-2：Mezigdomide 三藥組合為首次復發治療帶來新方向",
+      "normalized_title": "successor2mezigdomide三藥組合為首次復發治療帶來新方向",
+      "title_aliases": [],
+      "urls": [
+        "https://pharmaphorum.com/news/asco26-bms-hails-compelling-phase-3-celmod-readout"
+      ],
+      "keywords": [
+        "mezigdomide",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-06-mm-weekly"
+      ],
+      "sources": [
+        "pharmaphorum"
+      ]
+    },
+    {
+      "topic_id": "topic-f3b83d1532b4",
+      "title": "Talvey 與 Tecvayli 雙標靶組合，探索高風險髓外病變治療",
+      "normalized_title": "talvey與tecvayli雙標靶組合探索高風險髓外病變治療",
+      "title_aliases": [],
+      "urls": [
+        "https://www.thepharmaletter.com/biotechnology/positive-new-trial-results-for-jandj-talvey-and-tecvayli"
+      ],
+      "keywords": [
+        "bcma",
+        "gprc5d",
+        "talquetamab",
+        "talvey",
+        "teclistamab",
+        "骨髓瘤",
+        "高風險"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-13-mm-weekly"
+      ],
+      "sources": [
+        "The Pharma Letter"
+      ]
+    },
+    {
+      "topic_id": "topic-e3e7be524f4a",
+      "title": "台灣建立雙特異性抗體教育認證，為新型免疫治療預作準備",
+      "normalized_title": "台灣建立雙特異性抗體教育認證為新型免疫治療預作準備",
+      "title_aliases": [],
+      "urls": [
+        "https://www.tbmt.org.tw/publicUI/B/B10201.aspx?arg=8DECD4B1EFC0E94071"
+      ],
+      "keywords": [
+        "elranatamab",
+        "teclistamab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-13-mm-weekly"
+      ],
+      "sources": [
+        "中華民國血液及骨髓移植學會"
+      ]
+    },
+    {
+      "topic_id": "topic-1625fbf1f711",
+      "title": "台灣治療現況：從三藥、四藥組合走向 CAR-T、雙特異性抗體與 ADC",
+      "normalized_title": "台灣治療現況從三藥四藥組合走向cart雙特異性抗體與adc",
+      "title_aliases": [],
+      "urls": [
+        "https://www.tbmta.org.tw/_admin/upload/8adc3745df22b943ccd948f7eebc9328.pdf"
+      ],
+      "keywords": [
+        "adc",
+        "car-t",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-20-mm-weekly"
+      ],
+      "sources": [
+        "台灣髓緣之友協會 TBMTA"
+      ]
+    },
+    {
+      "topic_id": "topic-34c440ea3b80",
+      "title": "多發性骨髓瘤舒活攻略：從副作用處理到居家安全與心理支持",
+      "normalized_title": "多發性骨髓瘤舒活攻略從副作用處理到居家安全與心理支持",
+      "title_aliases": [],
+      "urls": [
+        "https://knowledge.ecancer.org.tw/knowledge/useful_tool/for_dummies/yloif?point_area=relative_area"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-20-mm-weekly"
+      ],
+      "sources": [
+        "台灣癌症希望基金會知識館"
+      ]
+    },
+    {
+      "topic_id": "topic-8c11621126da",
+      "title": "歐洲 CHMP 支持 teclistamab 合併 daratumumab 前移至較早復發階段",
+      "normalized_title": "歐洲chmp支持teclistamab合併daratumumab前移至較早復發階段",
+      "title_aliases": [],
+      "urls": [
+        "https://www.jnj.com/media-center/press-releases/chmp-recommendation-advances-johnson-johnsons-tecvayli-teclistamab-plus-daratumumab-as-a-potential-standard-of-care-for-relapsed-refractory-multiple-myeloma"
+      ],
+      "keywords": [
+        "daratumumab",
+        "teclistamab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-06-mm-weekly"
+      ],
+      "sources": [
+        "Johnson & Johnson Myeloma"
+      ]
+    },
+    {
+      "topic_id": "topic-607b68328882",
+      "title": "研究探討：兩項指標同時達進展標準，是否仍需等待第二次確認？",
+      "normalized_title": "研究探討兩項指標同時達進展標準是否仍需等待第二次確認",
+      "title_aliases": [],
+      "urls": [
+        "https://ashpublications.org/blood/article/doi/10.1182/blood.2024027949/537693/Eliminating-The-Need-for-Sequential-Confirmation"
+      ],
+      "keywords": [
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-06-mm-weekly"
+      ],
+      "sources": [
+        "ASH Blood Journal"
+      ]
+    },
+    {
+      "topic_id": "topic-003c87e4ee85",
+      "title": "福岡病友交流：CAR-T 與長期藥物治療經驗，讓彼此看見更多可能",
+      "normalized_title": "福岡病友交流cart與長期藥物治療經驗讓彼此看見更多可能",
+      "title_aliases": [],
+      "urls": [
+        "https://sites.google.com/view/horizon-fukuoka/%E4%BA%A4%E6%B5%81%E3%82%B5%E3%83%AD%E3%83%B3/2026%E5%B9%B4/2026%E5%B9%B43%E6%9C%8829%E6%97%A5%E4%BA%A4%E6%B5%81%E3%82%B5%E3%83%AD%E3%83%B3"
+      ],
+      "keywords": [
+        "car-t",
+        "交流沙龍",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-13-mm-weekly"
+      ],
+      "sources": [
+        "Horizon Fukuoka 交流サロン"
+      ]
+    },
+    {
+      "topic_id": "topic-02cea0479050",
+      "title": "美國核准 Sarclisa Escena，isatuximab 增加皮下注射給藥選擇",
+      "normalized_title": "美國核准sarclisaescenaisatuximab增加皮下注射給藥選擇",
+      "title_aliases": [],
+      "urls": [
+        "https://healthtree.org/myeloma/community/articles/07-10-2026-sarclisa-escensa-for-multiple-myeloma"
+      ],
+      "keywords": [
+        "fda",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-20-mm-weekly"
+      ],
+      "sources": [
+        "HealthTree for Multiple Myeloma"
+      ]
+    },
+    {
+      "topic_id": "topic-8280d42c7860",
+      "title": "韓國擴大 DVd 三藥健保，增加復發骨髓瘤第二線以上治療選擇",
+      "normalized_title": "韓國擴大dvd三藥健保增加復發骨髓瘤第二線以上治療選擇",
+      "title_aliases": [],
+      "urls": [
+        "http://www.kbdca.or.kr/bbs/board.php?tbl=bbs224&mode=VIEW&num=147"
+      ],
+      "keywords": [
+        "daratumumab",
+        "骨髓瘤"
+      ],
+      "first_published": "2026-07",
+      "report_slugs": [
+        "2026-07-20-mm-weekly"
+      ],
+      "sources": [
+        "韓國血液癌症協會 KBDCA"
+      ]
+    }
+  ]
+}

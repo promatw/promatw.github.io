@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "description": "人工確認的同主題標題別名。rebuild 時合併到 published_topics.json。",
+  "aliases": [
+    {
+      "alias_title": "2025年度多發性骨髓腫研究助成公募",
+      "canonical_title": "2025年度多發性骨髓瘤研究助成公募",
+      "reason": "骨髓腫與骨髓瘤為同一主題的用字差異"
+    },
+    {
+      "alias_title": "2025年度多發性骨髓腫研究助成公募（截止 2026年5月29日）",
+      "canonical_title": "2025年度多發性骨髓瘤研究助成公募",
+      "reason": "同一項研究助成公募，週報標題附加截止日期"
+    },
+    {
+      "alias_title": "多發性骨髓瘤患者共同決策指南（2025年版）",
+      "canonical_title": "【2025年出版】多發性骨髓瘤患者共同決策指南",
+      "reason": "同一份 2025 年患者共同決策指南"
+    },
+    {
+      "alias_title": "【2025年發刊】多發性骨髓瘤患者協同決策指南——讓治療選擇更符合個人價值觀",
+      "canonical_title": "【2025年出版】多發性骨髓瘤患者共同決策指南",
+      "reason": "3 月與 4 月月報中的同一份患者決策指南"
+    },
+    {
+      "alias_title": "第23回血液癌症講座：多發性骨髓瘤治療20年進展回顧",
+      "canonical_title": "第23屆血液癌症「知っとかナイト」——多發性骨髓瘤",
+      "reason": "同一場第 23 回血液癌症講座"
+    },
+    {
+      "alias_title": "FDA 發布指引：MRD 陰性可作為骨髓瘤加速審查主要終點",
+      "canonical_title": "FDA 發布草案指引：微量殘存病灶（MRD）可作為骨髓瘤加速核准的主要終點",
+      "reason": "同一份 FDA MRD 草案指引"
+    },
+    {
+      "alias_title": "FDA 發布草案指引，以 MRD 及完全緩解作為骨髓瘤臨床試驗加速審批終點",
+      "canonical_title": "FDA 發布草案指引：微量殘存病灶（MRD）可作為骨髓瘤加速核准的主要終點",
+      "reason": "同一份 FDA MRD 草案指引的不同媒體報導"
+    },
+    {
+      "alias_title": "BMS 旗下 iberdomide 獲 FDA 優先審查，8 月迎來審批結果",
+      "canonical_title": "FDA 受理 Iberdomide 復發/難治性多發性骨髓瘤新藥申請",
+      "reason": "同一項 iberdomide FDA 審查事件"
+    },
+    {
+      "alias_title": "骨髓瘤患者與家屬交流沙龍預告｜2026/6/21 福岡 Fuku Fuku 廣場舉行",
+      "canonical_title": "交流沙龍公告：2026年6月21日（日）福岡福福廣場",
+      "reason": "同一場 2026-06-21 福岡交流活動"
+    },
+    {
+      "alias_title": "高風險多發性骨髓瘤的重大進展",
+      "canonical_title": "高風險多發性骨髓瘤的關鍵進展",
+      "reason": "同一篇高風險骨髓瘤研究摘要"
+    },
+    {
+      "alias_title": "2026年3月骨髓瘤醫學期刊重點摘要",
+      "canonical_title": "2026年3月多發性骨髓瘤國際期刊最新研究重點",
+      "reason": "同一份 2026 年 3 月期刊摘要"
+    },
+    {
+      "alias_title": "以為老化？竟是多發性骨髓瘤！骨痛、疲倦、貧血別輕忽",
+      "canonical_title": "【名醫開講】以為老化？竟是多發性骨髓瘤！出現症狀要警覺，早期發現有望共存到老",
+      "reason": "同一則名醫衛教內容"
+    }
+  ]
+}

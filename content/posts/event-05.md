@@ -6,6 +6,8 @@ categories = ["event"]
 draft = false
 +++
 
+<div class="event-05-content">
+
 <p>這次聚會採輕鬆交流形式，歡迎病友、家屬與朋友一起來聚聚，認識其他朋友，也交流近期照護與治療資訊。</p>
 
 <h3 class="wp-block-heading">活動資訊</h3>
@@ -43,3 +45,5 @@ draft = false
 </table>
 
 <p>歡迎各位朋友一起來聚聚、認識其他朋友並交流資訊。</p>
+
+</div>

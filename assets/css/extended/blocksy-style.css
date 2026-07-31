@@ -332,7 +332,26 @@ main.main > footer.page-footer {
     padding: 40px 48px;
     margin: 0;
     width: 100%;
+    min-width: 0;
     grid-column: 1 / -1;  /* 在 main.main 2-col grid 中跨滿全寬 */
+}
+
+/* ---------- event-05 活動頁：表格與長網址的手機響應式 ---------- */
+.event-05-content {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+.event-05-content table {
+    table-layout: fixed;
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
+
+.event-05-content table th:first-child,
+.event-05-content table td:first-child {
+    width: 30%;
 }
 
 .post-title {
@@ -712,5 +731,23 @@ main.main > footer.page-footer {
         margin: 0;
         border-left: none;
         border-right: none;
+    }
+
+    .event-05-content table {
+        display: table;
+        width: 100%;
+        overflow-x: visible;
+    }
+
+    .event-05-content table th,
+    .event-05-content table td {
+        min-width: 0 !important;
+        padding: 8px 6px;
+        white-space: normal;
+    }
+
+    .post-single:has(.event-05-content) .post-title {
+        font-size: 2rem;
+        line-height: 1.3;
     }
 }

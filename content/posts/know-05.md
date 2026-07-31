@@ -25,12 +25,12 @@ draft = false
 
 <div style="background:#f7fbf6;border:2px solid #2f6f2b;padding:18px 20px;margin:24px 0;border-radius:8px;">
 <p style="font-size:1.15em;margin-top:0;"><strong>下載 PDF 檔案</strong><br>按下方按鈕可下載中英對照 PDF。若想閱讀未經翻譯重排的乾淨版本，也可下載 HealthTree 英文原文 PDF。</p>
-<p><a href="/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf" download style="display:inline-block;background:#2f6f2b;color:#fff;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.1em;">按此下載中英對照 PDF</a></p>
+<p><a href="/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf?v=20260731" download style="display:inline-block;background:#2f6f2b;color:#fff;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.1em;">按此下載中英對照 PDF</a></p>
 <p><a href="/files/2026/07/know-05/know-05-original-healthtree-deciphering-myeloma-labs.pdf" download>下載英文原文 PDF：Deciphering Myeloma Labs</a></p>
 <details style="margin-top:12px;">
 <summary style="cursor:pointer;font-weight:700;color:#155e63;">按此顯示下載連結 QR Code</summary>
-<p style="margin-top:12px;"><img src="/images/2026/07/know-05/know-05-download-qr.png" alt="解讀我的骨髓瘤檢驗報告 PDF 下載 QR Code" style="max-width:260px;width:100%;height:auto;border:1px solid #d0ddd0;border-radius:6px;padding:8px;background:#fff;"></p>
-<p style="font-size:0.9em;color:#555;">QR Code 連結：<br><a href="/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf">https://healthtreetw.org/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf</a></p>
+<p style="margin-top:12px;"><img src="/images/2026/07/know-05/know-05-download-qr.png?v=20260731" alt="解讀我的骨髓瘤檢驗報告 PDF 下載 QR Code" style="max-width:260px;width:100%;height:auto;border:1px solid #d0ddd0;border-radius:6px;padding:8px;background:#fff;"></p>
+<p style="font-size:0.9em;color:#555;">QR Code 連結：<br><a href="/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf?v=20260731">https://healthtreetw.org/files/2026/07/know-05/know-05-bilingual-ai-reference.pdf</a></p>
 </details>
 </div>
 

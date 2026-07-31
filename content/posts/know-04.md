@@ -30,7 +30,7 @@ draft = false
 <details style="margin-top:12px;">
 <summary style="cursor:pointer;font-weight:700;color:#155e63;">按此顯示下載連結 QR Code</summary>
 <p style="margin-top:12px;"><img src="/images/2026/07/know-04/know-04-download-qr.png" alt="認識檢驗數據簡明版 PDF 下載 QR Code" style="max-width:260px;width:100%;height:auto;border:1px solid #d0ddd0;border-radius:6px;padding:8px;background:#fff;"></p>
-<p style="font-size:0.9em;color:#555;">QR Code 連結：<br><a href="/files/2026/07/know-04/know-04-bilingual-ai-reference.pdf">https://promatw.github.io/files/2026/07/know-04/know-04-bilingual-ai-reference.pdf</a></p>
+<p style="font-size:0.9em;color:#555;">QR Code 連結：<br><a href="/files/2026/07/know-04/know-04-bilingual-ai-reference.pdf">https://healthtreetw.org/files/2026/07/know-04/know-04-bilingual-ai-reference.pdf</a></p>
 </details>
 </div>
 
